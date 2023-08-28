@@ -11,8 +11,6 @@ class Starter(PygameHelper):
     def __init__(self):
         self.w, self.h = 800, 600
         PygameHelper.__init__(self, size=(self.w, self.h), fill=((255,255,255)))
-        self.select_toggle = False
-        self.selected = []
 
     def update(self):
         pass
